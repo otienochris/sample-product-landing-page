@@ -1,0 +1,97 @@
+a {
+    /* text-align: center; */
+    text-decoration: none;
+    border: solid maroon 2px;
+    padding: 10px;
+    margin: auto ;
+    border-radius: 10px;
+    color: maroon;
+}
+#video {
+    max-width: 65%;
+    display: flex;
+    margin: auto;
+    margin-left: 20%;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    /* margin-top: 20px; */
+}
+img {
+    max-height: 100px;
+}
+
+a:hover, #content:hover, #form:hover {
+    background-color: burlywood;
+    color: black;
+}
+#content {
+    border: dotted brown 2px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#nav-bar {
+    background-color:white;
+    display: flex;
+    top: 0;
+    width: 100%;
+    max-height: 200px;
+    border-bottom: solid maroon;
+    position: fixed;
+}
+#header {
+    width: 100%;
+    /* margin: auto; */
+    
+}
+
+@media (max-width: 600px) {
+    p, h1, a, label, button {
+        font-size: 99%;
+    }
+}
+
+#main {
+    display: block;
+    padding: 16px;
+    margin-top: 150px;
+}
+
+#nav-links {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    /* margin: auto; */
+}
+
+#content {
+    max-width: 80%;
+    margin: auto;
+}
+#form {
+    max-width: 60%;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-top: solid maroon 2px; 
+    border-bottom: solid maroon 2px; 
+    margin:30px auto 30px auto;
+}
+#form button {
+    margin: 5px;
+}
+::placeholder, button {
+    color: brown;
+}
+#footer {
+    background-color: burlywood;
+    margin:0px;
+    padding:16px;
+    margin: auto;
+    align-content: center
+
+}
+
+
